@@ -1,4 +1,4 @@
-import iconJs from '../images/bootstrap.png';
+import iconJs from '../images/javascript.png';
 import iconCss from '../images/css.png';
 import iconHtml from '../images/html.png';
 import iconGit from '../images/git.png';
@@ -8,8 +8,9 @@ import iconBS from '../images/bootstrap.png';
 const SkillsDev = () => {
   return (
     <article className="skillsArt">
-      <h2 className="">Front-end</h2>
+      <h2 className="">Skills</h2>
       <div className="skillsArt__list">
+        <p>Front-End</p>
         <div>
           <img className="iconStyle" src={iconJs} alt="icono-js"></img>
           <p className="">JavaScript</p>
@@ -34,6 +35,9 @@ const SkillsDev = () => {
           <img className="iconStyle" src={iconBS} alt="icono-js"></img>
           <p className="">bootstrap</p>
         </div>
+      </div>
+      <div>
+        <p>Back-End</p>
       </div>
     </article>
   );
