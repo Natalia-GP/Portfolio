@@ -1,0 +1,28 @@
+.section {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section__title {
+  display: block;
+  justify-content: center;
+  font-family: monospace;
+  white-space: nowrap; //los espacios en blanco no rompan línea
+  border-right: 3px solid; //puntero
+  width: 33ch;
+
+  animation: typing 3s steps(33), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}

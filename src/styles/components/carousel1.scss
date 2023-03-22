@@ -1,0 +1,44 @@
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 0 7px 13px -3px rgba(0, 0, 0, 0.3),
+    inset 0 -3px 0 rgba(0, 0, 0, 0.2);
+
+  --bs-card-inner-border-radius: calc(1.375rem - 1px);
+}
+.projectSection {
+  align-items: center;
+  background-color: #76e3b9;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1.25rem;
+}
+.projectSection_div2 {
+  background-color: #230577;
+  padding-top: 1.5625rem;
+}
+.carousel {
+  border-radius: 20px;
+  height: 22rem;
+  max-width: 20rem;
+}
+.carousel-idicators {
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  list-style: none;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  z-index: 2;
+}
+
+.projectSection_div2 {
+  display: flex;
+  flex-wrap: wrap;
+}
