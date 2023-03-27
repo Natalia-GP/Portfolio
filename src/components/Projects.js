@@ -1,4 +1,4 @@
-import SmallCarousel from './SmallCarousel';
+import DemoCarousel from './DemoCarousel';
 import { HashScroll } from 'react-hash-scroll';
 
 const Projects = () => {
@@ -7,7 +7,7 @@ const Projects = () => {
       <section id="paquito" className="projectSection">
         <h2 className="projectSection_title">Mis proyectos</h2>
         <div className="projectSection_div2 showSmaller">
-          <SmallCarousel></SmallCarousel>
+          <DemoCarousel></DemoCarousel>
         </div>
       </section>
     </HashScroll>
