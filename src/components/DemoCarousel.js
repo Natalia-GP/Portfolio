@@ -7,32 +7,91 @@ import Maq from '../images/Maq_.png';
 
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import '../styles/components/DemoCarousel.scss';
+
 const DemoCarousel = () => {
   return (
-    <Carousel autoPlay>
+    <Carousel className="MyCarousel" autoPlay>
       <div>
         <img alt="" src={pillow} />
-        <p className="legend">Legend 1</p>
+        <p className="legend">
+          Proyecto Grupal realizado en React.
+          <a
+            href="https://github.com/Natalia-GP/pillow_heads"
+            target="blank"
+            rel="norefferrer"
+          >
+            <i className="fa-brands fa-square-github"></i>
+          </a>
+        </p>
       </div>
       <div>
         <img alt="" src={Maq} />
-        <p className="legend">Legend 2</p>
+        <p className="legend">
+          Maquetación responsive
+          <a
+            href="https://github.com/Natalia-GP/Maquetacion"
+            target="blank"
+            rel="norefferrer"
+          >
+            <i className="fa-brands fa-square-github"></i>
+          </a>
+        </p>
       </div>
       <div>
         <img alt="" src={awesomewomen} />
-        <p className="legend">Legend 3</p>
+        <p className="legend">
+          Legend 3
+          <a
+            href="https://github.com/Natalia-GP/Awesome-Woman-Cards"
+            target="blank"
+            rel="norefferrer"
+          >
+            <i className="fa-brands fa-square-github"></i>
+          </a>
+        </p>
       </div>
       <div>
         <img alt="" src={codingtime} />
-        <p className="legend">Legend 4</p>
+        <p className="legend">
+          Página de creación y personificación de tarjetas con migración de
+          código heredado y creación de servidor.{' '}
+          <a
+            href="https://github.com/Natalia-GP/Coding-Time"
+            target="blank"
+            rel="norefferrer"
+          >
+            <i className="fa-brands fa-square-github"></i>
+          </a>
+        </p>
       </div>
       <div>
         <img alt="" src={rickandmorty} />
-        <p className="legend">Legend 5</p>
+        <p className="legend">
+          Buscador de personajes usando una API de la serie de Rick and Morty
+          con distintos filtros{' '}
+          <a
+            href="https://github.com/Natalia-GP/Buscador-Rick-and-Morty"
+            target="blank"
+            rel="norefferrer"
+          >
+            <i className="fa-brands fa-square-github"></i>
+          </a>
+        </p>
       </div>
       <div>
         <img alt="" src={bb} />
-        <p className="legend">Legend 6</p>
+        <p className="legend">
+          Buscador de personajes con filtrados y con funcionalidad de guardado
+          en favoritos con LocalStorage.
+          <a
+            href="https://github.com/Natalia-GP/Breaking-Bad"
+            target="blank"
+            rel="norefferrer"
+          >
+            <i className="fa-brands fa-square-github"></i>
+          </a>
+        </p>
       </div>
     </Carousel>
   );

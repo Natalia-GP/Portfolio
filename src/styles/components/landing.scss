@@ -12,7 +12,7 @@
   white-space: nowrap; //los espacios en blanco no rompan línea
   border-right: 3px solid; //puntero
   width: 33ch;
-
+  font-size: calc(0.7rem + 2vw);
   animation: typing 3s steps(33), blink 0.5s infinite step-end alternate;
   overflow: hidden;
 }

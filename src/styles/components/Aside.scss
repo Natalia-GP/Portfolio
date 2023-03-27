@@ -5,9 +5,14 @@
   width: 10%;
   padding: 1px;
   background-color: #f5f5f5;
+  z-index: 1;
 }
 
 .social {
   display: flex;
   flex-direction: column;
+}
+.fa-brands {
+  font-size: x-large;
+  margin-left: 4rem;
 }

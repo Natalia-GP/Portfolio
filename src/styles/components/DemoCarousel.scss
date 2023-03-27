@@ -1,0 +1,27 @@
+.carousel .slide .legend {
+  border: 1px solid #c812ec;
+}
+.carousel .control-next.control-arrow:before {
+  border-left: 8px solid black;
+  margin-right: 13rem;
+}
+.carousel .control-prev.control-arrow:before {
+  border-right: 8px solid black;
+  margin-left: 13rem;
+  // transform: translate(14rem, 0);
+}
+.carousel .slider-wrapper {
+  overflow: hidden;
+  margin: auto;
+  width: 50%;
+  transition: height 0.15s ease-in;
+}
+.carousel .thumbs-wrapper {
+  margin: 20px;
+  display: flex;
+
+  justify-content: center;
+}
+.carousel .control-arrow,
+.carousel.carousel-slider .control-arrow {
+}
