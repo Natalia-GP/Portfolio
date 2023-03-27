@@ -3,8 +3,8 @@ const AboutMe = () => {
   return (
     <HashScroll hash="#aboutMe" position="start">
       <section id="aboutMe" className="aboutMeSection">
-        <h1>Sobre mí</h1>
-        <p className="">
+        <h2 aboutMeSection__title>Sobre mí</h2>
+        <p className="aboutMeSection__text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nisl
           velit, posuere sed tellus a, semper finibus lacus. Integer sit amet
           nibh augue. Mauris interdum egestas interdum. Pellentesque at dictum

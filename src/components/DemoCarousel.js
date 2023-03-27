@@ -30,6 +30,7 @@ const DemoCarousel = () => {
         <p className="legend">
           Maquetación responsive
           <a
+            className="Cv"
             href="https://github.com/Natalia-GP/Maquetacion"
             target="blank"
             rel="norefferrer"

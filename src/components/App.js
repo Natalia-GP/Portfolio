@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <Header toggle={toggle} setToggle={setToggle}></Header>
-      <main>
+      <main className='main'>
         <Routes>
           <Route
             exact
