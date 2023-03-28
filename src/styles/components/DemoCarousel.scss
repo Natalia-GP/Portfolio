@@ -1,27 +1,28 @@
-.carousel .slide .legend {
-  border: 1px solid #c812ec;
+@import '../core/mixin.scss';
+.carousel .thumbs-wrapper {
+  display: none;
+  @include tablet {
+    display: block;
+    margin: 20px;
+    overflow: hidden;
+    text-align-last: center;
+  }
 }
+
 .carousel .control-next.control-arrow:before {
   border-left: 8px solid black;
-  margin-right: 13rem;
 }
 .carousel .control-prev.control-arrow:before {
   border-right: 8px solid black;
-  margin-left: 13rem;
+  // margin-left: 13rem;
   // transform: translate(14rem, 0);
 }
-.carousel .slider-wrapper {
-  overflow: hidden;
-  margin: auto;
-  width: 50%;
-  transition: height 0.15s ease-in;
-}
-.carousel .thumbs-wrapper {
-  margin: 20px;
-  display: flex;
 
-  justify-content: center;
-}
-.carousel .control-arrow,
-.carousel.carousel-slider .control-arrow {
-}
+// .carousel .thumbs {
+//   white-space: normal;
+//   transition: auto;
+// }
+
+// .carousel .slide .legend {
+//   display: none;
+// }

@@ -3,4 +3,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  &__text {
+    font-style: italic;
+    color: rgb(0, 7, 7);
+    opacity: 1;
+    text-align: center;
+  }
 }

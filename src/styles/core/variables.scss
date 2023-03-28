@@ -3,7 +3,7 @@
 // $font-main:
 // $font-secondary:
 
-// $primary-color:
+$primary-color: rgba(255, 219, 172, 1);
 // $secondary-color:
 
 $defaultFontSize: 16;
@@ -14,22 +14,4 @@ $defaultFontSize: 16;
 @function toRem($value) {
   $remValue: ($value / 16) + rem;
   @return $remValue;
-}
-
-//Mixins
-@mixin t($fontSize, $fontHeight) {
-  font-size: $fontSize;
-  line-height: $fontHeight;
-}
-
-@mixin tablet {
-  @media all and (min-width: 768px) {
-    @content;
-  }
-}
-
-@mixin desktop {
-  @media all and (min-width: 1200px) {
-    @content;
-  }
 }

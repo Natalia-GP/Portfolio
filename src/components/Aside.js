@@ -5,7 +5,7 @@ const Aside = () => {
       <div className="img">
         <img src={obelix} alt="Foto de cobaya" width="50" height="50" />
       </div>
-      <span className="heading">Sígueme en:</span>
+      <span className="heading">Follow me</span>
       <p>
         <a href="https://twitter.com/kyrhia">
           <svg
