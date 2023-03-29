@@ -27,8 +27,8 @@ const Contact = (props) => {
   return (
     <HashScroll hash="contact" position="start">
       <section id="contact" className="contactSection">
-        <h2 className="contactSection_title">Contacto</h2>
-        <div className="contactSection_form">
+        <h2 className="contactSection__title">Contacto</h2>
+        <div className="contactSection__form">
           <form ref={form} onSubmit={sendEmail} className="form" action="">
             <div className="form_section">
               <label className="form_section-legend" htmlFor="fullname">
@@ -69,7 +69,7 @@ const Contact = (props) => {
                 required
               />
             </div>
-            <div className="form_section">
+            <div className="form_sectionBtn">
               <input
                 className="form_section-btn"
                 type="submit"

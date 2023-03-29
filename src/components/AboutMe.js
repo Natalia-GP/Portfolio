@@ -3,19 +3,18 @@ const AboutMe = () => {
   return (
     <HashScroll hash="#aboutMe" position="start">
       <section id="aboutMe" className="aboutMeSection">
-        <h2 aboutMeSection__title>Sobre mí</h2>
-        <p className="aboutMeSection__text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nisl
-          velit, posuere sed tellus a, semper finibus lacus. Integer sit amet
-          nibh augue. Mauris interdum egestas interdum. Pellentesque at dictum
-          odio, et ultricies lectus. Nulla sit amet elementum tellus. Phasellus
-          mattis scelerisque purus quis porttitor. Donec vehicula sapien non dui
-          venenatis eleifend. Donec at tempor nulla. Sed vitae mi in mauris
-          tincidunt vulputate. Aenean congue, nunc eu condimentum lacinia, elit
-          augue pulvinar leo, vitae luctus leo velit in dui. Pellentesque nisi
-          felis, sagittis eu sollicitudin id, lacinia sed velit. In facilisis
-          condimentum justo sit amet pulvinar.
-        </p>
+        <div className="book">
+          <p className="book__text">
+            Maestra reinventada, decidí dejarme llevar y dar un salto de fe al
+            mundo de la programación. Tantas horas delante del ordenador deben
+            servir para algo no?. Aquí hay un pedacito de mi, humildemente
+            empiezo mi aventura. Cómo dijo Antonio Machado: "Caminante, no hay
+            camino, se hace camino al andar."
+          </p>
+          <div className="cover">
+            <p className="cover__text">SOBRE MI</p>
+          </div>
+        </div>
       </section>
     </HashScroll>
   );

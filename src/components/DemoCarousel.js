@@ -53,7 +53,7 @@ const DemoCarousel = () => {
         </p>
       </div>
       <div>
-        <img alt="" src={codingtime} />
+        <img alt="" src={bb} />
         <p className="legend">
           Página de creación y personificación de tarjetas con migración de
           código heredado y creación de servidor.{' '}
@@ -81,7 +81,7 @@ const DemoCarousel = () => {
         </p>
       </div>
       <div>
-        <img alt="" src={bb} />
+        <img alt="" src={codingtime} />
         <p className="legend">
           Buscador de personajes con filtrados y con funcionalidad de guardado
           en favoritos con LocalStorage.

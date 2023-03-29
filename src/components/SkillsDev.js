@@ -8,35 +8,19 @@ import iconBS from '../images/bootstrap.png';
 const SkillsDev = () => {
   return (
     <article className="skillsArt">
-      <h2 className="">Skills</h2>
+      <h2 className="skillsArt__text">Skills</h2>
       <div className="skillsArt__list">
         <p>Front-End</p>
         <div>
           <img className="iconStyle" src={iconJs} alt="icono-js"></img>
-          <p className="">JavaScript</p>
-        </div>
-        <div>
           <img className="iconStyle" src={iconCss} alt="icono-js"></img>
-          <p className="">Css</p>
-        </div>
-        <div>
           <img className="iconStyle" src={iconHtml} alt="icono-js"></img>
-          <p className="">HTML</p>
-        </div>
-        <div>
           <img className="iconStyle" src={iconReact} alt="icono-js"></img>
-          <p className="">React</p>
-        </div>
-        <div>
           <img className="iconStyle" src={iconGit} alt="icono-js"></img>
-          <p className="">Git</p>
-        </div>
-        <div>
           <img className="iconStyle" src={iconBS} alt="icono-js"></img>
-          <p className="">bootstrap</p>
         </div>
       </div>
-      <div>
+      <div className="skillsArt__list">
         <p>Back-End</p>
       </div>
     </article>

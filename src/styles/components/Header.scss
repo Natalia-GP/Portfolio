@@ -2,12 +2,17 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  font-family: $font-title;
 }
 
 .nav {
   margin-left: 2rem;
   padding-left: 3rem;
   animation: slide-right 3s linear 1s both;
+}
+a {
+  text-decoration: none;
+  color: #dfa01e;
 }
 @keyframes slide-left {
   0% {
