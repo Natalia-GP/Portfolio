@@ -5,7 +5,7 @@
   font-family: $font-title;
   padding-top: 4rem;
   margin-top: auto;
-  @include desktop {
+  @include tablet {
     justify-content: center;
   }
 }
@@ -14,7 +14,6 @@
   margin-left: 2rem;
   padding-left: 3rem;
   animation: slide-right 1s linear 1s both;
-  transform: translateX(1000rem);
 }
 a {
   text-decoration: none;
@@ -25,7 +24,7 @@ a {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(800px);
+    transform: translateX(9000px);
   }
 }
 @keyframes slide-right {
@@ -33,7 +32,7 @@ a {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-40px);
+    transform: translateX(-400px);
   }
 }
 .nav__list {
@@ -44,9 +43,10 @@ a {
   text-transform: uppercase;
   font-family: $font-title;
   font-weight: bold;
+  margin-right: 1rem;
 
   @include tablet {
-    margin-left: 8rem;
+    margin-right: 1.5rem;
   }
   @include desktop {
     font-size: 2.2rem;
@@ -61,9 +61,9 @@ a {
   height: 9rem;
   font-size: 14px;
   @include tablet {
-    margin-left: -9.5rem;
-    width: 10rem;
-    margin-right: 4rem;
+    // margin-left: -9.5rem;
+    // width: 10rem;
+    // margin-right: 4rem;
   }
   @include desktop {
     font-size: 22px;
