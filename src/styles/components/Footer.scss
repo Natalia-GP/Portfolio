@@ -1,0 +1,12 @@
+.footer {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $text-color;
+  &__copy {
+    color: black;
+    opacity: 1;
+    margin-top: 1rem;
+  }
+}

@@ -2,19 +2,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 4rem;
 }
 .skillsArt__list {
   color: $text-color;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
 }
 .skillsArt__text {
+  font-weight: bold;
+  text-transform: uppercase;
   color: $primary-color;
   align-content: center;
+  @include desktop {
+    font-size: 2.5rem;
+  }
 }
 .iconStyle {
   width: 2rem;
   height: 2rem;
-}
-.skillsArt__list {
-  display: flex;
-  flex-direction: row;
 }

@@ -3,12 +3,18 @@
   flex-direction: row;
   justify-content: space-around;
   font-family: $font-title;
+  padding-top: 4rem;
+  margin-top: auto;
 }
 
 .nav {
   margin-left: 2rem;
   padding-left: 3rem;
-  animation: slide-right 3s linear 1s both;
+  animation: slide-right 1s linear 1s both;
+  @include desktop {
+    margin-left: 7rem;
+    padding-left: 7rem;
+  }
 }
 a {
   text-decoration: none;
@@ -34,15 +40,33 @@ a {
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-family: $font-title;
+  font-weight: bold;
+
+  @include tablet {
+    margin-left: 8rem;
+  }
+  //
 }
 .wheel-and-hamster {
-  animation: slide-right 4s linear both;
-  margin-left: 1.5rem;
+  animation: slide-right 1s linear both;
+  margin-left: 0.5rem;
   --dur: 1s;
   position: relative;
-  width: 12em;
-  height: 12em;
+  width: 6rem;
+  height: 9rem;
   font-size: 14px;
+  @include tablet {
+    margin-left: -9.5rem;
+    width: 10rem;
+    margin-right: 4rem;
+  }
+  @include desktop {
+    font-size: 17px;
+    margin-left: -22rem;
+  }
 }
 @keyframes slide-left {
   0% {

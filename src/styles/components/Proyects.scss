@@ -2,7 +2,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
   &__title {
-    font-size: x-large;
+    color: $primary-color;
+    margin: 4rem 0 3rem 0;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    @include desktop {
+      margin: 5rem 0 5rem 0;
+      font-size: 3rem;
+    }
   }
 }
