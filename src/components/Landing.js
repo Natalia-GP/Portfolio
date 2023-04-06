@@ -1,4 +1,4 @@
-import cvNatalia from '../static/CV Natalia Gómez -es.pdf';
+import cvNatalia from '../static/cv Natalia Gómez (ES).pdf';
 const Landing = () => {
   return (
     <div className="section">

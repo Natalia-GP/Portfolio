@@ -40,9 +40,10 @@ const DemoCarousel = () => {
         </p>
       </div>
       <div>
-        <img alt="" src={awesomewomen} />
+        <img alt="screen shot of awesome cards project" src={awesomewomen} />
         <p className="legend">
-          Legend 3
+          Página de creación y personificación de tarjetas. Maquetación y
+          funcionalidades para customizar la tarjeta.
           <a
             href="https://github.com/Natalia-GP/Awesome-Woman-Cards"
             target="blank"
@@ -53,12 +54,12 @@ const DemoCarousel = () => {
         </p>
       </div>
       <div>
-        <img alt="" src={bb} />
+        <img alt="screen shot of breaking bad project" src={bb} />
         <p className="legend">
-          Página de creación y personificación de tarjetas con migración de
-          código heredado y creación de servidor.{' '}
+          Buscador de personajes con filtrados y con funcionalidad de guardado
+          en favoritos con LocalStorage.
           <a
-            href="https://github.com/Natalia-GP/Coding-Time"
+            href="https://github.com/Natalia-GP/Breaking-Bad"
             target="blank"
             rel="norefferrer"
           >
@@ -67,10 +68,9 @@ const DemoCarousel = () => {
         </p>
       </div>
       <div>
-        <img alt="" src={rickandmorty} />
+        <img alt="screen shot of Rick and Morty project" src={rickandmorty} />
         <p className="legend">
-          Buscador de personajes usando una API de la serie de Rick and Morty
-          con distintos filtros{' '}
+          Buscador de personajes usando una API con distintos filtros.
           <a
             href="https://github.com/Natalia-GP/Buscador-Rick-and-Morty"
             target="blank"
@@ -81,12 +81,12 @@ const DemoCarousel = () => {
         </p>
       </div>
       <div>
-        <img alt="" src={codingtime} />
+        <img alt="screen shot of coding time project" src={codingtime} />
         <p className="legend">
-          Buscador de personajes con filtrados y con funcionalidad de guardado
-          en favoritos con LocalStorage.
+          Página de creación y personificación de tarjetas con migración de
+          código heredado y creación de servidor.
           <a
-            href="https://github.com/Natalia-GP/Breaking-Bad"
+            href="https://github.com/Natalia-GP/Coding-Time "
             target="blank"
             rel="norefferrer"
           >

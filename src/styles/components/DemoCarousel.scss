@@ -14,15 +14,7 @@
 }
 .carousel .control-prev.control-arrow:before {
   border-right: 8px solid black;
-  // margin-left: 13rem;
-  // transform: translate(14rem, 0);
 }
-
-// .carousel .thumbs {
-//   white-space: normal;
-//   transition: auto;
-// }
-
-// .carousel .slide .legend {
-//   display: none;
-// }
+.legend {
+  margin-right: 1rem;
+}

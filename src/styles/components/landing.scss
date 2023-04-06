@@ -5,6 +5,9 @@
   justify-content: center;
   align-items: center;
   color: $text-color;
+  @include desktop {
+    height: 40rem;
+  }
 }
 .section__title {
   display: block;

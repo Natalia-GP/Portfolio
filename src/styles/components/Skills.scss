@@ -1,20 +1,28 @@
 .skillsArt {
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-top: 4rem;
+  &__text {
+    text-align: center;
+    @include tablet {
+      font-size: 2.2rem;
+    }
+    @include desktop {
+      font-size: 3.2rem;
+    }
+  }
 }
 .skillsArt__list {
-  color: $text-color;
-  flex-direction: column;
-  align-items: center;
-  display: flex;
+  color: #daf3ff;
+  flex-direction: row;
+  display: inline-flex;
+  justify-content: space-evenly;
 }
 .skillsArt__text {
   font-weight: bold;
   text-transform: uppercase;
   color: $primary-color;
-  align-content: center;
+
   @include desktop {
     font-size: 2.5rem;
   }
@@ -22,4 +30,15 @@
 .iconStyle {
   width: 2rem;
   height: 2rem;
+  @include tablet {
+    width: 3.3rem;
+    height: 3.3rem;
+  }
+  @include desktop {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+.respons {
+  background: white;
 }
