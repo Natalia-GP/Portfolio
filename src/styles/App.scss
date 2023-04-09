@@ -10,14 +10,4 @@
 @import 'components/Proyects.scss';
 @import 'components/Contact.scss';
 @import 'components/Footer.scss';
-
-.App {
-  background-image: url('../images/pattern_hexagon_background.png');
-}
-.body {
-  height: 100%;
-}
-
-.main {
-  height: 100%;
-}
+@import 'components/Main.scss';

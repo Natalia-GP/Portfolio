@@ -24,9 +24,9 @@ function App() {
   // HTML EN EL RETURN
 
   return (
-    <div className="App">
+    <div className="mainDiv">
       <Header toggle={toggle} setToggle={setToggle}></Header>
-      <main className='main'>
+      <main className="main">
         <Routes>
           <Route
             exact
