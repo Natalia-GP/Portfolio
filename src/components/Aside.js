@@ -7,7 +7,11 @@ const Aside = () => {
       </div>
       <span className="heading">Follow me</span>
       <p>
-        <a href="https://twitter.com/kyrhia">
+        <a
+          href="https://twitter.com/kyrhia"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <svg
             className="icon"
             viewBox="0 0 1024 1024"
@@ -23,7 +27,11 @@ const Aside = () => {
           </svg>
         </a>
 
-        <a href="https://github.com/Natalia-GP">
+        <a
+          href="https://github.com/Natalia-GP"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <svg
             className="icon"
             viewBox="0 0 1024 1024"
@@ -38,7 +46,11 @@ const Aside = () => {
             ></path>
           </svg>
         </a>
-        <a href="https://www.linkedin.com/in/natalia-gomez-perez/">
+        <a
+          href="https://www.linkedin.com/in/natalia-gomez-perez/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <svg
             className="icon"
             width="30"
