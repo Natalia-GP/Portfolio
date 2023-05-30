@@ -7,14 +7,18 @@
   &__title {
     text-transform: uppercase;
     color: $primary-color;
-    font-size: 1.7rem;
+    font-size: 35px;
     font-weight: bold;
     @include desktop {
       font-size: 2.5rem;
     }
   }
   &__form {
-    color: $text-color;
+    color: black;
+    font-size: 20px;
+    @include tablet {
+      font-size: 30px;
+    }
   }
 }
 
@@ -26,9 +30,6 @@
 .form_section-legend {
   text-align: center;
   margin-bottom: 0.5rem;
-}
-.form_section-btn {
-  color: black;
 }
 .form_sectionBtn {
   display: flex;
@@ -42,13 +43,16 @@
   outline: none;
   border-radius: 15px;
   padding: 1em;
-  background-color: #ccc;
+  background-color: #fef3ea;
   box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
   transition: 300ms ease-in-out;
   text-align: center;
   width: 17rem;
+  @include tablet {
+    width: 20rem;
+  }
   @include desktop {
-    width: 25rem;
+    width: 35rem;
   }
 }
 
@@ -62,7 +66,7 @@
   outline: none;
   border-radius: 15px;
   padding: 1em;
-  background-color: #ccc;
+  background-color: #fef3ea;
   box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
   transition: 300ms ease-in-out;
   text-align: center;
@@ -78,6 +82,7 @@
   align-items: center;
   justify-content: center;
   outline: none;
+  color: black;
   cursor: pointer;
   width: 150px;
   height: 50px;
@@ -85,10 +90,8 @@
   border-radius: 30px;
   border: 1px solid #8f9092;
   transition: all 0.2s ease;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 600;
-  color: #606060;
   text-shadow: 0 1px #fff;
 }
 

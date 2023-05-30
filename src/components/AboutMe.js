@@ -1,19 +1,33 @@
 import { HashScroll } from 'react-hash-scroll';
+import cvNatalia from '../static/Cv Nat_Gom.pdf';
+
 const AboutMe = () => {
   return (
     <HashScroll hash="#aboutMe" position="start">
       <section id="aboutMe" className="aboutMeSection">
         <div className="book">
           <p className="book__text">
-            Maestra reinventada, decidí dejarme llevar y dar un salto de fe al
-            mundo de la programación. Tantas horas delante del ordenador deben
-            servir para algo no?. Aquí hay un pedacito de mi, humildemente
-            empiezo mi aventura. Cómo dijo Antonio Machado: "Caminante, no hay
-            camino, se hace camino al andar."
+            Soy una maestra reinventada que decidí entrar en el mundo de la
+            programación que tanto me atraía. Salí de mi zona de confort, dí un
+            salto de fe y comencé una nueva etapa profesional. Feliz de mi
+            decisión te doy la bienvenida a este trocito de mi.
           </p>
           <div className="cover">
             <p className="cover__text">SOBRE MI</p>
           </div>
+        </div>
+        <div className="divCv">
+          <h2 className="divCv__text">Descarga mi CV</h2>
+          <button className="buttonCV">
+            <a
+              className="cvLink"
+              href={cvNatalia}
+              download="CV Natalia Gomez"
+              target="blank"
+            >
+              gracias
+            </a>
+          </button>
         </div>
       </section>
     </HashScroll>

@@ -11,7 +11,7 @@ import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './Footer';
 import Aside from './Aside';
-import backImage from '../images/background.png';
+
 function App() {
   // VARIABLES ESTADO
   const [toggle, setToggle] = useState(true);
@@ -25,7 +25,7 @@ function App() {
   // HTML EN EL RETURN
 
   return (
-    <div className="mainDiv" style={{ backgroundImage: `url(${backImage})` }}>
+    <div className="mainDiv">
       <Header toggle={toggle} setToggle={setToggle}></Header>
       <main className="main">
         <Routes>

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <section className="header">
-      <nav className="nav">
+      <nav className="header__div">
         <ul className="nav__list">
           <li className="nav__lis__item">
             <Link to="/#aboutMe">Sobre mí</Link>{' '}
@@ -15,12 +15,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <div
-        aria-label="Orange and tan hamster running in a metal wheel"
-        role="img"
-        className="wheel-and-hamster"
-      >
-        <div className="wheel"></div>
+      <div aria-label="hamster" role="img" className="divHamster">
         <div className="hamster">
           <div className="hamster__body">
             <div className="hamster__head">

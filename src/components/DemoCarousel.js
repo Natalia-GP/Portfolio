@@ -4,7 +4,7 @@ import codingtime from '../images/CodingTime.png';
 import rickandmorty from '../images/RickMor.png';
 import pillow from '../images/pillows_.png';
 import Maq from '../images/Maq_.png';
-
+import ZM from '../images/ZombieMaze.png';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../styles/components/DemoCarousel.scss';
@@ -12,11 +12,26 @@ import '../styles/components/DemoCarousel.scss';
 const DemoCarousel = () => {
   return (
     <Carousel className="MyCarousel" autoPlay>
-      <div>
+      <div className="MyCarousel__div">
+        <img alt="" src={ZM} />
+        <p className="MyCarousel__div--legend">
+          Videojuego realizado en JS, HTML Y CSS.
+          <a
+            className="ghIcon"
+            href="https://github.com/Natalia-GP/JavaScript-videogame"
+            target="blank"
+            rel="norefferrer"
+          >
+            <i className="fa-brands fa-square-github"></i>
+          </a>
+        </p>
+      </div>
+      <div className="MyCarousel__div">
         <img alt="" src={pillow} />
-        <p className="legend">
+        <p className="MyCarousel__div--legend">
           Proyecto Grupal realizado en React.
           <a
+            className="ghIcon"
             href="https://github.com/Natalia-GP/pillow_heads"
             target="blank"
             rel="norefferrer"
@@ -25,9 +40,9 @@ const DemoCarousel = () => {
           </a>
         </p>
       </div>
-      <div>
+      <div className="MyCarousel__div">
         <img alt="" src={Maq} />
-        <p className="legend">
+        <p className="MyCarousel__div--legend">
           Maquetación responsive
           <a
             className="Cv"
@@ -39,9 +54,9 @@ const DemoCarousel = () => {
           </a>
         </p>
       </div>
-      <div>
+      <div className="MyCarousel__div">
         <img alt="screen shot of awesome cards project" src={awesomewomen} />
-        <p className="legend">
+        <p className="MyCarousel__div--legend">
           Página de creación y personificación de tarjetas. Maquetación y
           funcionalidades para customizar la tarjeta.
           <a
@@ -53,9 +68,9 @@ const DemoCarousel = () => {
           </a>
         </p>
       </div>
-      <div>
+      <div className="MyCarousel__div">
         <img alt="screen shot of breaking bad project" src={bb} />
-        <p className="legend">
+        <p className="MyCarousel__div--legend">
           Buscador de personajes con filtrados y con funcionalidad de guardado
           en favoritos con LocalStorage.
           <a
@@ -67,9 +82,9 @@ const DemoCarousel = () => {
           </a>
         </p>
       </div>
-      <div>
+      <div className="MyCarousel__div">
         <img alt="screen shot of Rick and Morty project" src={rickandmorty} />
-        <p className="legend">
+        <p className="MyCarousel__div--legend">
           Buscador de personajes usando una API con distintos filtros.
           <a
             href="https://github.com/Natalia-GP/Buscador-Rick-and-Morty"
@@ -80,9 +95,9 @@ const DemoCarousel = () => {
           </a>
         </p>
       </div>
-      <div>
+      <div className="MyCarousel__div">
         <img alt="screen shot of coding time project" src={codingtime} />
-        <p className="legend">
+        <p className="MyCarousel__div--legend">
           Página de creación y personificación de tarjetas con migración de
           código heredado y creación de servidor.
           <a
@@ -99,61 +114,3 @@ const DemoCarousel = () => {
 };
 
 export default DemoCarousel;
-
-//   return (
-//     <Carousel>
-//       <Carousel.Item>
-//         <div className="d-flex flex-row">
-//           <Card>
-//             <Card.Img variant="top" src={pillow} />
-//             <Card.Body>
-//               <Card.Title>Pillow Heads</Card.Title>
-//               <Card.Text>Proyecto grupal realizado en React.</Card.Text>
-//             </Card.Body>
-//           </Card>
-//           <Card>
-//             <Card.Img variant="top" src={Maq} />
-//             <Card.Body>
-//               <Card.Title>Maquetación</Card.Title>
-//               <Card.Text>Maquetación realizada en html y sass</Card.Text>
-//             </Card.Body>
-//           </Card>
-//           <Card>
-//             <Card.Img variant="top" src={awesomewomen} />
-//             <Card.Body>
-//               <Card.Title>Awesome Woman cards</Card.Title>
-//               <Card.Text>Proyecto realizado en Js, html y sass</Card.Text>
-//             </Card.Body>
-//           </Card>
-//         </div>
-//       </Carousel.Item>
-//       <Carousel.Item>
-//         <div className="d-flex flex-row">
-//           <Card>
-//             <Card.Img variant="top" src={codingtime} />
-//             <Card.Body>
-//               <Card.Title>CodingTime</Card.Title>
-//               <Card.Text>This is the first card.</Card.Text>
-//             </Card.Body>
-//           </Card>
-//           <Card>
-//             <Card.Img variant="top" src={rickandmorty} />
-//             <Card.Body>
-//               <Card.Title>Rick and Morty</Card.Title>
-//               <Card.Text>This is the second card.</Card.Text>
-//             </Card.Body>
-//           </Card>
-//           <Card>
-//             <Card.Img variant="top" src={bb} />
-//             <Card.Body>
-//               <Card.Title>Breaking Bad</Card.Title>
-//               <Card.Text>This is the third card.</Card.Text>
-//             </Card.Body>
-//           </Card>
-//         </div>
-//       </Carousel.Item>
-//     </Carousel>
-//   );
-// };
-
-// export default SmallCarousel;

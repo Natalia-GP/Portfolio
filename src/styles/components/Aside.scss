@@ -7,9 +7,9 @@
     position: fixed;
     top: 50%;
     right: 0;
-    background: #aec2db;
-    border-bottom-left-radius: 50px;
-    border-top-left-radius: 50px;
+    background: #2c3e50;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
     text-align: center;
     color: #f0f0f0;
     font-family: inherit;
@@ -33,35 +33,30 @@
       background-color: #152f50;
     }
   }
-  .heading {
-    padding: 10px;
-    font-weight: 500;
-    font-size: 13px;
-    margin-top: 26px;
-  }
-  p {
-    opacity: 0;
-    transition: all 0.5s;
-  }
+  @include tablet {
+    .heading {
+      padding: 10px;
+      font-size: 25px;
+      margin-top: 26px;
+    }
+    p {
+      opacity: 1;
+      transition: all 0.5s;
+    }
 
-  .heading {
-    padding: 10px;
-    font-weight: 500;
-    font-size: 18px;
-  }
+    svg {
+      padding: 0 5px;
+      cursor: pointer;
+    }
 
-  svg {
-    padding: 0 5px;
-    cursor: pointer;
-  }
+    .card:hover .img {
+      transform: scale(1.1);
+      border: 1px solid #f0f0f0;
+    }
 
-  .card:hover .img {
-    transform: scale(1.1);
-    border: 1px solid #f0f0f0;
-  }
-
-  .card:hover h1,
-  .card:hover p {
-    opacity: 1;
+    .card:hover h1,
+    .card:hover p {
+      opacity: 1;
+    }
   }
 }

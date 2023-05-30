@@ -4,7 +4,7 @@ $font-title: 'Roboto', sans-serif;
 
 // $font-secondary:
 
-$primary-color: #dfa01e;
+$primary-color: black;
 $secondary-color: rgb(16, 33, 51);
 $text-color: #daf3ff;
 
@@ -16,4 +16,12 @@ $defaultFontSize: 16;
 @function toRem($value) {
   $remValue: ($value / 16) + rem;
   @return $remValue;
+}
+@font-face {
+  font-family: fontBook;
+  src: url(../../fonts/Letters.ttf);
+}
+@font-face {
+  font-family: fontacover;
+  src: url(../../fonts/BOOKMARK.otf);
 }
