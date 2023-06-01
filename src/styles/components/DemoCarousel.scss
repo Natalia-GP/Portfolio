@@ -12,13 +12,15 @@
 .MyCarousel__div--legend {
   font-size: 10px;
   margin-top: 15px;
-
   text-align: center;
 
   @include tablet {
     font-size: 15px;
     opacity: 1;
     transition: all 0.5s;
+  }
+  @include desktop {
+    font-size: 25px;
   }
 }
 
@@ -76,6 +78,12 @@
   width: 70%;
   vertical-align: top;
   border: 1;
+  @include tablet {
+    width: 85%;
+  }
+  @include desktop {
+    width: 90%;
+  }
 }
 .carousel .thumbs {
   transition: all 0.15s ease-in;

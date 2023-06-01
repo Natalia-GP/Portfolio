@@ -17,5 +17,11 @@
   }
   &__div2 {
     width: 80%;
+    @include tablet {
+      width: 60%;
+    }
+    @include desktop {
+      width: 45%;
+    }
   }
 }
