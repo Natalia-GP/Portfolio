@@ -11,15 +11,19 @@
 }
 .MyCarousel__div--legend {
   font-size: 10px;
+  margin-top: 15px;
+
   text-align: center;
-  margin-top: 10px;
+
   @include tablet {
+    font-size: 15px;
     opacity: 1;
     transition: all 0.5s;
   }
 }
 
 .fa-brands {
+  margin-top: 5px;
   font-size: 25px;
   display: flex;
   justify-content: center;
