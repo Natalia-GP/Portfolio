@@ -1,6 +1,6 @@
 import { HashScroll } from 'react-hash-scroll';
 import cvNatalia from '../static/Cv Nat_Gom.pdf';
-
+import patternImage from '../images/pattern.png';
 const AboutMe = () => {
   return (
     <HashScroll hash="#aboutMe" position="start">
@@ -12,7 +12,10 @@ const AboutMe = () => {
             salto de fe y comencé una nueva etapa profesional. Feliz de mi
             decisión te doy la bienvenida a este trocito de mi.
           </p>
-          <div className="cover">
+          <div
+            className="cover"
+            style={{ backgroundImage: `url(${patternImage})` }}
+          >
             <p className="cover__text">SOBRE MI</p>
           </div>
         </div>

@@ -14,10 +14,14 @@ import iconNodeJs from '../images/nodejs.png';
 import icongoal from '../images/goal.png';
 import iconCognitive from '../images/cognitive.png';
 import iconSmile from '../images/smile.png';
+import patternImage from '../images/pattern.png';
 
 const SkillsDev = () => {
   return (
-    <section className="skillsArt">
+    <section
+      className="skillsArt"
+      style={{ backgroundImage: `url(${patternImage})` }}
+    >
       <h2 className="skillsArt__text">Skills</h2>
       <div className="skillsArt__list">
         <img className="iconStyle" src={iconJs} alt="icono-js"></img>
