@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.599aca25.css",
-    "main.js": "./static/js/main.cb487876.js",
+    "main.js": "./static/js/main.4ac32e94.js",
     "static/media/B_B.png": "./static/media/B_B.c7cab6d4f855353fc949.png",
     "static/media/CodingTime.png": "./static/media/CodingTime.aad63ec08a58be34756e.png",
     "static/media/AweWom.png": "./static/media/AweWom.8868807e7ecc73d8611e.png",
     "static/media/pillows_.png": "./static/media/pillows_.ddab3d91c7918d3cd2c5.png",
     "static/media/RickMor.png": "./static/media/RickMor.42beda7488410c2d6a4d.png",
     "static/media/Cv Nat_Gom.pdf": "./static/media/Cv Nat_Gom.cbbf23bf051f0a938eb4.pdf",
+    "static/media/Next.js.png": "./static/media/Next.js.37b5f5bd724287f3f136.png",
     "static/media/Letters.ttf": "./static/media/Letters.7e712f2d5a710b24c025.ttf",
     "static/media/pattern.png": "./static/media/pattern.f7c9a1b32586388ad53b.png",
     "static/media/Maq_.png": "./static/media/Maq_.5382fc61271287ec5684.png",
@@ -23,10 +24,10 @@
     "static/media/git.png": "./static/media/git.a54d3fa44e02f2f61e69.png",
     "index.html": "./index.html",
     "main.599aca25.css.map": "./static/css/main.599aca25.css.map",
-    "main.cb487876.js.map": "./static/js/main.cb487876.js.map"
+    "main.4ac32e94.js.map": "./static/js/main.4ac32e94.js.map"
   },
   "entrypoints": [
     "static/css/main.599aca25.css",
-    "static/js/main.cb487876.js"
+    "static/js/main.4ac32e94.js"
   ]
 }
