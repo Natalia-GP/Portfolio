@@ -5,6 +5,7 @@ import rickandmorty from '../images/RickMor.png';
 import pillow from '../images/pillows_.png';
 import Maq from '../images/Maq_.png';
 import ZM from '../images/ZombieMaze.png';
+import NxJs from '../images/Next.js.png';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../styles/components/DemoCarousel.scss';
@@ -19,6 +20,20 @@ const DemoCarousel = () => {
           <a
             className="ghIcon"
             href="https://github.com/Natalia-GP/JavaScript-videogame"
+            target="blank"
+            rel="norefferrer"
+          >
+            <i className="fa-brands fa-square-github"></i>
+          </a>
+        </p>
+      </div>
+      <div className="MyCarousel__div">
+        <img alt="" src={NxJs} />
+        <p className="MyCarousel__div--legend">
+          Calculadora de sumas realizada en Next.Js almacenando los resultados en LocalStorage.
+          <a
+            className="ghIcon"
+            href="https://github.com/Natalia-GP/NG_calc_test"
             target="blank"
             rel="norefferrer"
           >
