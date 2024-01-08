@@ -1,9 +1,13 @@
 .section {
-  margin: 25px 0 25px 0;
+  margin: 20% 0 20% 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: black;
+
+  @include tablet {
+    margin: 10% 0 15% 0;
+  }
 
   @include desktop {
     height: 16rem;

@@ -1,5 +1,5 @@
 import { HashScroll } from 'react-hash-scroll';
-import cvNatalia from '../static/Cv Nat_Gom.pdf';
+import cvNatalia from '../static/CV Natalia Gomez.pdf';
 import patternImage from '../images/pattern.png';
 const AboutMe = () => {
   return (
