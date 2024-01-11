@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "./static/css/main.5e22ea3d.css",
-    "main.js": "./static/js/main.12ba952f.js",
+    "main.js": "./static/js/main.ef0fd04a.js",
     "static/media/B_B.png": "./static/media/B_B.c7cab6d4f855353fc949.png",
     "static/media/CodingTime.png": "./static/media/CodingTime.aad63ec08a58be34756e.png",
     "static/media/AweWom.png": "./static/media/AweWom.8868807e7ecc73d8611e.png",
     "static/media/pillows_.png": "./static/media/pillows_.ddab3d91c7918d3cd2c5.png",
-    "static/media/CV Natalia Gomez.pdf": "./static/media/CV Natalia Gomez.65982ccfa56f23ecb1c5.pdf",
+    "static/media/Natalia Gomez CV.pdf": "./static/media/Natalia Gomez CV.28b1209d60ea17911638.pdf",
     "static/media/RickMor.png": "./static/media/RickMor.42beda7488410c2d6a4d.png",
     "static/media/Next.js.png": "./static/media/Next.js.37b5f5bd724287f3f136.png",
     "static/media/Letters.ttf": "./static/media/Letters.7e712f2d5a710b24c025.ttf",
@@ -24,10 +24,10 @@
     "static/media/git.png": "./static/media/git.a54d3fa44e02f2f61e69.png",
     "index.html": "./index.html",
     "main.5e22ea3d.css.map": "./static/css/main.5e22ea3d.css.map",
-    "main.12ba952f.js.map": "./static/js/main.12ba952f.js.map"
+    "main.ef0fd04a.js.map": "./static/js/main.ef0fd04a.js.map"
   },
   "entrypoints": [
     "static/css/main.5e22ea3d.css",
-    "static/js/main.12ba952f.js"
+    "static/js/main.ef0fd04a.js"
   ]
 }
